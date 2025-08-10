@@ -136,13 +136,13 @@
 }
 
 .hero-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(13, 110, 253, 0.45); /* bleu Bootstrap avec opacité */
-	z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13,110,253,0.25); /* bleu un peu plus foncé */
+    z-index: 1;
 }
 
 .hero-content {
@@ -188,6 +188,29 @@
 .navbar .navbar-nav {
 	flex: 1;
 	justify-content: center;
+}
+
+.navbar-nav .nav-link {
+    transition: background 0.2s, color 0.2s;
+    border-radius: 0.5rem;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    background: rgba(13,110,253,0.15);
+    color: white !important;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-link {
+        margin: 0.2rem 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link:focus {
+        background: rgba(13,110,253,0.25);
+        color: #fff !important;
+    }
 }
 
 .navbar .navbar-brand img {
