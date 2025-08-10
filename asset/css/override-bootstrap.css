@@ -174,9 +174,10 @@
 	.hero-title {
 		font-size: 2rem;
 	}
-	.hero-content {
-		height: 50vh;
-	}
+    .hero-content {
+        height: 50vh;
+        padding-top: 12rem;
+    }
 }
 
 .navbar-custom {
