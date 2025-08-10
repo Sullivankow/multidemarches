@@ -141,7 +141,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(13,110,253,0.25); /* bleu un peu plus foncé */
+    background: rgba(13, 60, 120, 0.45); /* bleu foncé, plus sombre */
     z-index: 1;
 }
 
