@@ -1,4 +1,6 @@
 
+
+
 :root,
 [data-bs-theme=light] {
     --bs-blue: #0d6efd;
@@ -228,4 +230,13 @@
 .btn-rdv:hover {
 	background: #084298;
 	color: #fff;
+}
+
+
+/* Icône menu burger blanche sur desktop, bleue sur mobile */
+.navbar-toggler {
+    border-color: #fff;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
