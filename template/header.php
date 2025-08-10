@@ -24,8 +24,8 @@
         <div class="hero-overlay"></div>
         <nav class="navbar navbar-expand-lg navbar-custom px-4 pt-3">
             <a class="navbar-brand d-flex align-items-center gap-2" href="/">
-                <img src="/asset/images/logo.png" alt="Logo Multi-Démarches" width="48" height="48" style="object-fit:contain;">
-                <span class="fw-bold mb-2 text-white" style="font-size: 1.3rem; margin-left: 0.5rem;">Multi-Démarches</span>
+                <img src="/asset/images/logo1.png" alt="Logo Multi-Démarches" style="height:80px;width:auto;max-width:160px;object-fit:contain;">
+                <span class="fw-bold mb-2 text-white" style="font-size: 1.3rem; margin-left: 0.05rem;">Multi-Démarches</span>
             </a>
             <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
